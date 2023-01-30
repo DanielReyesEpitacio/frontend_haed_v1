@@ -1,0 +1,67 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+footer{
+    background-color: #006C76;
+    padding: 10pt;
+}
+
+p{
+    font-family:"Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 21pt;
+    font-weight:400;
+    
+}
+a{
+    font-family:"Montserrat", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul{
+    font-family:"Montserrat", sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 30pt;
+}
+h4{
+    font-family:"Montserrat", sans-serif;
+    color:white;
+    text-transform: uppercase;
+    
+    font-size: large;
+    padding-bottom: 10pt;
+    font-weight:bold;
+
+}
+#correos{
+    text-transform: capitalize;
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    font-weight:bold;
+}
+#electronicos{
+    color:black;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight:bold;
+}
+#footer-bottom{
+    border:10pt;
+    border-color: black;
+    
+    padding-top: 10pt;
+
+}
+#line{
+   
+    background-color: rgb(36, 36, 36);
+}
+hr{
+    color: #000;
+    width: 100%;
+}
