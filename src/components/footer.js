@@ -2,6 +2,11 @@ import React from "react";
 import  "bootstrap/dist/css/bootstrap.min.css";
 import "../css/footer.css"
 
+function Year(){
+    let year = new Date().getFullYear();
+    return year
+}
+let _year = Year()
 function Footer(){
     return(
         <>
@@ -82,10 +87,7 @@ function Footer(){
                                 <div class="footer-copy-right">
                                     <p>
                                         
-                                        Universidad Tecnológica de Puebla &copy;<script>
-                                            document.write(new Date().getFullYear());
-                                        </script>
-                                        Todos los derechos reservados | <a href="creditos.html">Créditos</a> &nbsp;
+                                        Universidad Tecnológica de Puebla &copy;  {_year } Todos los derechos reservados | <a href="creditos.html">Créditos</a> &nbsp;
                                         <i class="fa fa-heart" aria-hidden="true"></i>
                                     </p>
                                 </div>
