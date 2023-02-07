@@ -1,0 +1,80 @@
+.navbar{
+    background-color:white;
+    color:white;
+   font-family: "Montserrat";
+   width: 100%;
+}
+
+a.nav-link:active{
+  color: black;
+  border-style: 6px solid black;
+}
+
+a.navbar-brand {
+    position: absolute;
+    display: flex;
+   margin-left:6.5rem;
+}
+
+.Relleno {
+    margin-top: 52px;
+}
+
+nav.navbar.navbar-dark.fixed-top {
+    position: absolute;
+  }
+  
+  ul.navbar-nav {
+    margin-left: 42.5rem;
+  }
+
+  a.nav-link {
+    font-size: 16px;
+}
+
+
+  /* ESTILOS DE LINKS DE NAV */
+  a.nav-link {
+    color: #0d2d3e;
+    font-weight: 400;
+    padding: 39px 19px;
+    display: block;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+
+  img.navbar-brand.imagen {
+    height: 54px;
+}
+
+@media (max-width: 1353px) {
+  ul.navbar-nav {
+    margin-left: 22rem;
+}
+}
+
+@media (max-width: 955px) {
+    ul.navbar-nav {
+      margin-left: auto;
+  }
+  a.navbar-brand.imagen {
+    margin-left: 1rem;
+}
+nav.navbar.navbar-dark.fixed-top {
+    padding-right: 0px;
+}
+
+  }
+  @media (min-width: 738px) {
+    ul.navbar-nav {
+      margin-left: auto;
+  }
+  a.navbar-brand.imagen {
+    margin-left: 0rem;
+}
+  }
