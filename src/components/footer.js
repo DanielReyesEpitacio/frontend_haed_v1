@@ -11,6 +11,7 @@ function Footer(){
     return(
         <>
             <footer>
+
                 <div class="container section-bg mt-5">
                     <div class="row d-flex justify-content-between">
                         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
@@ -22,7 +23,7 @@ function Footer(){
                             <div class="footer-tittle">
                                <h4>Páginas</h4>
                                 <ul>
-                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="">Inicio</a></li>
                                     <li><a href="">Descubre</a></li>
                                     <li><a href="">Autoevaluación</a></li>
                                     <li><a href="">Canal YouTube</a></li>

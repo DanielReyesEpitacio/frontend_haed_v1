@@ -1,84 +1,39 @@
 import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
 import '../css/Nav.css';
 import TICS from '../components/images/logo_TICeducativa_normal.png'
 import Calidad from '../components/images/CalidadyCompetividad.jpg'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export default function Navbar()
+function Navv()
 {
     const Tics = () =>(<img class="navbar-brand imagen" src={TICS} alt="TIC"/>)
     const Quality = () =>(<img class="navbar-brand imagen" src={Calidad} alt="logo"/>)
 return (
-    
     <>
-<div class="Relleno">
-</div>
- <div class="sticky">
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark ">
-        <div class="container">
-        <Quality class="navbar-brand imagen" />
-        <Tics class="navbar-brand imagen" />
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myList"
-                aria-controls="myList" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-     
-            <div class="collapse navbar-collapse" id="myList">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Descubre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Autoevaluacion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Canal Youtube</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    
-                </ul>
-            </div>
+    <Navbar bg="light" expand="lg">
+      <div class="container">
+        <div class="col-sm-8 col-md-6">
+        <img class="navbar-brand imagen" src={TICS} alt="TIC"/>
+        <img class="navbar-brand imagen" src={Calidad} alt="logo"/>
         </div>
-    </nav>
-    </div>
-
-
-    
-    <div class="container">
-        <div class="py-5">
-            <h1>Sticky Navbar Example</h1>
-            <p>Welcome to KindaCode.com</p>
-        </div>
-
-        <div class="py-5">
-            <h1>Dummy Content #1</h1>
-            <p>Welcome to KindaCode.com</p>
-        </div>
-
-        <div class="py-5">
-            <h1>Dummy Content #2</h1>
-            <p>Welcome to KindaCode.com</p>
-        </div>
-
-        <div class="py-5">
-            <h1>Dummy Content #3</h1>
-            <p>Welcome to KindaCode.com</p>
-        </div>
-
-        <div class="py-5">
-            <h1>Dummy Content #4</h1>
-            <p>Welcome to KindaCode.com</p>
-        </div>
-
-    </div>
-  
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>  
+            <Navbar.Collapse id="basic-navbar-nav pull-right">
+                <Nav className="me-auto pull-right" >
+                    <Nav.Link href="#home">Inicio</Nav.Link>
+                    <Nav.Link href="#link">Descubre</Nav.Link>
+                    <Nav.Link href="#link">Autoevaluacion</Nav.Link>
+                    <Nav.Link href="#link">Canal Youtube</Nav.Link>
+                    <Nav.Link href="#link">Contacto</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>  
+      </div>
+    </Navbar>
     </>
   );
 }
+export default Navv
 
