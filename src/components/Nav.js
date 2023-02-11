@@ -14,20 +14,19 @@ function Navv()
     const Quality = () =>(<img class="navbar-brand imagen" src={Calidad} alt="logo"/>)
 return (
     <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className=" navbar-fixed-top">
       <div class="container">
         <div class="col-sm-8 col-md-6">
         <img class="navbar-brand imagen" src={TICS} alt="TIC"/>
         <img class="navbar-brand imagen" src={Calidad} alt="logo"/>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>  
-            <Navbar.Collapse id="basic-navbar-nav pull-right">
-                <Nav className="me-auto pull-right" >
-                    <Nav.Link href="#home">Inicio</Nav.Link>
-                    <Nav.Link href="#link">Descubre</Nav.Link>
-                    <Nav.Link href="#link">Autoevaluacion</Nav.Link>
-                    <Nav.Link href="#link">Canal Youtube</Nav.Link>
-                    <Nav.Link href="#link">Contacto</Nav.Link>
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto" >
+                    <Nav.Link href="#home" id="links">Inicio</Nav.Link>
+                    <Nav.Link href="#link" id="links">Autoevaluacion</Nav.Link>
+                    <Nav.Link href="#link" id="links">Canal Youtube</Nav.Link>
+                    <Nav.Link href="#link" id="links">Contacto</Nav.Link>
                 </Nav>
             </Navbar.Collapse>  
       </div>
