@@ -1,14 +1,14 @@
 
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Index from './pages/Index';
 function App() {
   return (
     <>
     <Header />
     <Nav/>
-    <p>Hola</p>
-    
+    <Index/>
     <Footer/>
     </>
   );

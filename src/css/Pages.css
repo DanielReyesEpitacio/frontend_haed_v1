@@ -1,0 +1,193 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#hero{
+    max-width: 100%;
+}
+#img2p{
+    margin-bottom: 20pt;
+}
+h1{
+    font-family: 'Montserrat';
+    color:#10403B;
+    font-weight:600;
+    font-size: 30pt;
+    
+}
+#contestar{
+    padding:10pt;
+    margin:15pt;
+    margin-left: 0;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    background-color: #3ea175;
+    color:white;
+    border: none;
+    font-weight:bolder;
+    font-family: 'Montserrat';
+
+}
+#contestar:hover{
+    background-color:#10403B;
+    color:white;
+}
+#definicion{
+    background-color: whitesmoke;
+    padding: 40pt;
+    margin-bottom: 40pt;
+}
+.info p{
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+h2{
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    color:#006D77;
+}
+ol{
+    list-style: none;
+}
+li{
+    font-weight: bold;
+    padding-top: 5pt;
+    font-family: 'Montserrat';
+    
+}
+#cicleCheck{
+    color:green;
+    margin-right: 10pt;
+}
+.tituloCuerpos h2{
+    color:#10403B;
+    font-family: 'Montserrat';
+}
+.tituloCuerpos p{
+    color:black;
+    font-size: small;
+}
+
+.cuerpos h1{
+    font-size: 25pt;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.cuerpos h2{
+    color:#104141;
+    font-size:x-large;
+   font-weight: 600;
+   color: #104141;
+   font-family: "Montserrat", sans-serif;
+}
+.cuerpos h3{
+    color: #006D77;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+}
+.cuerpos p{
+    color:black;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+.cuerpos #fichaTic {
+    margin-bottom: 20pt;
+}
+
+.cuerpos #fichaTic:hover{
+    cursor: pointer;
+    border-left: 5pt gray solid;
+    
+}
+.cuerpos #fichaTicA {
+    margin-bottom: 20pt;
+    border-left: 5pt gray solid;
+}
+.cuerpos #fichaTicA h2{
+    color: #50CB93;
+}
+.cuerpos #fichaTicA:hover{
+    cursor: pointer;
+    
+    
+}
+.cuerpos #fichaCalidad {
+    margin-bottom: 20pt;
+}
+
+.cuerpos #fichaCalidad:hover{
+    cursor: pointer;
+    border-left: 5pt gray solid;
+    
+}
+.cuerpos #fichaCalidadA {
+    margin-bottom: 20pt;
+    border-left: 5pt gray solid;
+}
+.cuerpos #fichaCalidadA h2{
+    color: #50CB93;
+}
+.cuerpos #fichaCalidadA:hover{
+    cursor: pointer;
+    
+    
+}
+
+
+
+#conImagen{
+    visibility: visible;
+    display: block;
+}
+#conTIC{
+    visibility: hidden;
+    display: none;
+}
+#conCalidad{
+    visibility: hidden;
+    display: none;
+}
+
+#tarjeta{
+    padding: 20pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+    margin-bottom: 30pt;
+    margin-top: 30pt;
+    
+}
+#tarjeta p{
+    color:black;
+    font-weight: lighter;
+}
+#iconCard{
+    color: #3fcdc7;
+    font-size: 30pt;
+}
+.cards h1{
+    font-size: 25pt;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.cards p{
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+.portafolio{
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+.portafolio h1{
+    font-size: 25pt;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.portafolio img{
+    margin-bottom: 10pt;
+}
