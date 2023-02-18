@@ -1,3 +1,10 @@
+div.row{
+    margin-right: 0px;
+}
+ 
+div.container-fluid{
+    padding-right: 0px;
+}
 @font-face{
     font-family: "Montserrat";
     src: url("../fonts/Montserrat-VariableFont_wght.ttf");

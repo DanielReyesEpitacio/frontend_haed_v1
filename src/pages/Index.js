@@ -59,7 +59,7 @@ function Index(){
                     <h1>HAED: Herramienta de Autoevaluación Docente</h1>
                     <Button variant="success" id="contestar">Contestar Autoevaluación</Button>
                 </div>
-                <div class="col-sm-12 col-md-6" data-aos="fade-left">
+                <div class="col-sm-12 col-md-6" data-aos="zoom-in">
                 <img className="img-fluid" src={HERO} alt="Hero"/>
                 </div>
             </div>
@@ -67,7 +67,7 @@ function Index(){
                 <div class="col-sm-12 col-md-6 " data-aos="zoom-in">
                     <img className="img-fluid" id="img2p"src={IMG2P} alt="ImagenPortafolio2"/>
                 </div>
-                <div class="col-sm-12 col-md-6 info" data-aos="fade-left">
+                <div class="col-sm-12 col-md-6 info" data-aos="zoom-in">
                     <h2>Herramienta enfocada al mejoramiento de la calidad educativa universitaria</h2>
                     <p>HAED es un herramienta alternativa de autoevaluación docente propuesta por los cuerpos académicos:</p>
                     <ol> 
