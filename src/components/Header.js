@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import "../css/Header.css"
 import Dropdown from 'react-bootstrap/Dropdown';
+
 function Year(){
   let year
   return  year = new Date().getFullYear();
@@ -27,7 +28,7 @@ function Header() {
       <div class="container">
         <div class="row">
           <div class="col-sm-3 col-md-2" id="date">
-          <FontAwesomeIcon icon={faClock} id="reloj"/>{_day}/{_month}/{_year}
+          <FontAwesomeIcon icon={faClock} id="reloj"/>{_day}/{_month}/{Year()}
           </div>
           <div class="col-sm-7 col-md-9" id="Title">
           <p>Herramienta de Autoevaluacion HAED</p>
