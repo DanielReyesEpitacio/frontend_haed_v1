@@ -1,10 +1,19 @@
+
 .imagen{
   max-width: 100px;
 }
 #links{
-  text-align: right;
+  text-align: left;
+  color:black;
+  padding-left: 30pt;
+  font-family: 'Montserrat';
 }
 #collapse{
   text-align: right;
   align-items:end;
+}
+Navbar{
+  z-index: -1;
+  position: fixed;
+  top:0;
 }
