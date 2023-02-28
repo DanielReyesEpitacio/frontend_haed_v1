@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../css/Pages.css"
+import "../css/Index.css"
 import Button from 'react-bootstrap/Button'
 import HERO from "../components/images/hero.png"
 import IMG1P from "../components/images/img1_portfolio.jpg"

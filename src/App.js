@@ -2,13 +2,13 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Index from './pages/Index';
+import Login from './pages/login';
 function App() {
   return (
     <>
     <Header />
     <Nav/>
-    <Index/>
+    <Login/>
     <Footer/>
     </>
   );
